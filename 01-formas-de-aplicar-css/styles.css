@@ -31,11 +31,13 @@ body {
 }
 
 .funcion-externa {
-  color: #8;
+  color: #8ecae6;
+  font-size: 20px;
+  text-align: center;
 }
 
 /* ============================================================
-   TODO 3 — CSS EXTERNO
+   TODO 3 OK! — CSS EXTERNO
    Este archivo está enlazado desde el <head> con la etiqueta
    <link>. Escribí una regla para la clase .funcion-externa con:
    - color: #8ecae6
