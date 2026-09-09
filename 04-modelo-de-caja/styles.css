@@ -101,7 +101,7 @@ body {
   border-radius: 6px;
 }
 /* ============================================================
-    EXPERIMENTO DE BOX-SIZING
+    EXPERIMENTO DE BOX-SIZING.
    El reset usa box-sizing: border-box: el width incluye el
    padding y el borde. Probá cambiar el padding de .carnet de
    20px a 40px: ¿el carnet crece o sigue midiendo 340px?
