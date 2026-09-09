@@ -62,6 +62,11 @@ main {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+.hero p,
+.hero h1 {
+  text-shadow: 0px 0px 10px black;
+}
 /* ============================================================
    TODO 2 OK! — Texto del hero
    A .hero dale también:
