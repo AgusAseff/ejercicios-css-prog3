@@ -63,8 +63,9 @@ body {
   margin: 0 auto;
 }
 
-.destacado {
+.item.destacado {
   border-left: 6px solid #b25b1f;
+  border-radius: 0;
 }
 
 .item {
@@ -80,12 +81,11 @@ body {
 }
 
 .precio {
-  color: #2a9d8f !important;
+  color: #2a9d8f;
   font-weight: bold;
 }
 
-.etiqueta,
-2026-ofertas {
+.etiqueta {
   display: inline-block;
   background-color: #e63946;
   color: #ffffff;
@@ -95,7 +95,7 @@ body {
   margin-bottom: 8px;
 }
 
-.lista :not(.oferta) {
+.lista :not(.oferta) .precio {
   color: #2a9d8f;
 }
 
